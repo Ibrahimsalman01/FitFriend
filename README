@@ -1,5 +1,14 @@
 Name: Ibrahim Salman
+Group members: Only me, Ibrahim Salman
 Student #: 101248773
 Youtube Video: https://youtu.be/bYiL7DrNQRY
 GitHub Repo: https://github.com/Ibrahimsalman01/FitFriend.git
-Note: I did this project solo :)
+
+Compilation instructions:
+  1. Ensure database is setup properly and make sure to set up a .env for the necessary details to connect.
+  2. Initialize your database using ./SQL/Initilization.sql and populate using ./SQL/Population.sql
+  3. Before attempting to run the application, make sure to run the command:
+      > npm install
+    To download all the necessary node_modules
+  4. To run the application, use this command in the main folder:
+      > node index.js
