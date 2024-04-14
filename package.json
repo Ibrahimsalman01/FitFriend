@@ -1,0 +1,28 @@
+{
+  "name": "fitfriend_backend",
+  "version": "1.0.0",
+  "description": "Backend of the fitness management app FitFriend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibrahimsalman01/FitFriend.git"
+  },
+  "author": "Ibrahim Salman 101248773",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ibrahimsalman01/FitFriend/issues"
+  },
+  "homepage": "https://github.com/Ibrahimsalman01/FitFriend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.5",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
